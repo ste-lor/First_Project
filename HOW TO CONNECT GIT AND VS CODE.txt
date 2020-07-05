@@ -1,0 +1,18 @@
+1) Check richtigen username: python config --global --list
+	-> ansonsten neu Eingeben -> steht im Internet wie
+
+2) Erstelle Arbeits-Umgebung: git -m venv virtualenv1
+
+3) Den erstellen Master auswählen: Python.3.8..(virtualenv1)
+
+4) Projekt in Github erstellen
+
+5) Im entsprechenden Projekt auf dem lokalen Laufwerk:
+		5.1) git init
+		5.2) git remote add origin "Adresse des Links"
+		5.3) git remote
+		5.4) git push -u origin master 			(hier müsste eine Fehlermeldung auftreten)
+		5.5) git add -A
+		5.6) git commit -m "first commit"
+		5.7) git push -u origin master
+		
